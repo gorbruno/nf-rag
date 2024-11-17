@@ -5,5 +5,5 @@ __pycache__/
 *.pyd
 *.DS_Store
 cache/query/data/*
-!cache/data/.gitkeep
+!cache/query/data/.gitkeep
 
