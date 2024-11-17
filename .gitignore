@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.DS_Store
 cache/query/data/*
 !cache/data/.gitkeep
 
