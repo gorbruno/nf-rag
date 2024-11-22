@@ -2,7 +2,7 @@
 import websockets
 from model.client import client
 from cache.query.proccessing import load_context, save_context
-from cache.query.proccessing import clear_user_context, shutdown
+from cache.query.proccessing import clear_user_context
 
 async def get_model_response(context_db, context_key: str, user_input, max_tokens: int):
     """Запрос к модели"""
